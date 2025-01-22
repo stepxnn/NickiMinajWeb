@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 110%;
+}
+
+/*Header*/
+#header {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#header, #header a {
+    background-color: #f95bc4;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 120%;
+    text-align: center;
+    font-weight: lighter;
+    width: 100%;
+}
+#header li {
+    display: inline;
+    padding-right: 15px;
+}
+.header_bold {
+    font-weight: bold;
+}
+/*Header*/
+
+/*About Me*/
+#boxABOUTME {
+    margin-top: 80px;
+    padding: 20px;
+}
+#about_me_images {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.about_me_images {
+    padding: 20px;
+}
+/*About Me*/
+
+/*Home*/
+#boxHOME {
+    margin-top: 90px;
+    padding: 20px;
+    padding-left: 150px;
+    text-align: left;
+}
+.introduction_home {
+    font-size: 240%;
+}
+.h2_home {
+    font-size: 180%;
+}
+.photo_home {
+    margin-top: 20px;
+}
+/*Home*/
+
+/*Music*/
+#boxMUSIC {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+    /*{text-shadow: 2px 1px 1px #7d7d7d;*/
+}
+#albums_nicki_minaj {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-size: 180%;
+    border-bottom: 2px solid #f95bc4;
+    background-color: #ff3bbe69;
+}
+/*Music*/
+
+/*Store*/
+#boxSTORE {
+    margin-top: 100px;
+    text-align: center;
+}
+#store_nicki_minaj {
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 180%;
+    border-bottom: 2px solid #f95bc4;
+    background-color: #ff3bbe69;
+}
+/*Store*/
+
+/*Contact*/
+#boxCONTACT {
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.social_media {
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+    background-color: #ff3bbe69;
+    border-bottom: 2px solid #f95bc4;
+}
+.social_media_photos {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+/*Contact*/
