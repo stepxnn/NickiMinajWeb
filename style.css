@@ -8,12 +8,15 @@
 
 /*Header*/
 header {
+    backdrop-filter: blur(20px);
     padding: 20px;
     position: fixed;
 }
+.bg_header {
+    background-color: white;
+}
 header, header a {
-    background-color: #f95bc4;
-    color: rgb(0, 0, 0);
+    color: #dd6a88;
     text-decoration: none;
     font-size: 120%;
     text-align: center;
@@ -22,86 +25,66 @@ header, header a {
 }
 header li {
     display: inline;
-    padding-right: 15px;
+    padding: 15px;
 }
 .header_bold {
     font-weight: bold;
 }
+.header_logo {
+    float: left;
+}
 /*Header*/
 
-/*About Me*/
-#boxABOUTME {
-    margin-top: 80px;
-    padding: 20px;
-}
-#about_me_images {
-    margin-top: 20px;
-    padding: 20px;
+/*Footer*/
+footer {
     text-align: center;
+    font-size: small;
 }
-.about_me_images {
-    padding: 20px;
+/*Footer*/
+
+/*About*/
+.boxABOUT {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify
 }
+
 /*About Me*/
 
 /*Home*/
-#boxHOME {
-    margin-top: 90px;
-    padding: 20px;
-    padding-left: 150px;
-    text-align: left;
-}
-.introduction_home {
-    font-size: 240%;
-}
-.h2_home {
-    font-size: 180%;
-}
-.photo_home {
-    margin-top: 20px;
+.home {
+    background-image: url('img/background_home.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    z-index: -1;
 }
 /*Home*/
 
 /*Music*/
-#boxMUSIC {
-    margin-top: 80px;
-    padding: 20px;
+.boxMUSIC {
+    padding-top: 100px;
     text-align: center;
     /*{text-shadow: 2px 1px 1px #7d7d7d;*/
 }
 /*Music*/
 
 /*Store*/
-#boxSTORE {
-    margin-top: 100px;
+.boxMERCH {
+    padding-top: 100px;
     text-align: center;
-}
-#store_nicki_minaj {
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    padding-left: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 180%;
-    border-bottom: 2px solid #f95bc4;
-    background-color: #ff3bbe69;
 }
 /*Store*/
 
 /*Contact*/
-#boxCONTACT {
-    margin-top: 60px;
-    padding-top: 20px;
-}
-.social_media {
-    margin: 20px 20px 10px 20px;
+
+.boxCONTACT {
+    padding-top: 110px;
     text-align: center;
 }
-.social_media_photos {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+.subscribe_info {
+    font-size: x-small;
 }
 /*Contact*/
