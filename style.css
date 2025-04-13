@@ -8,24 +8,24 @@
 
 /*Header*/
 header {
-    backdrop-filter: blur(20px);
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     position: fixed;
-}
-.bg_header {
     background-color: white;
 }
 header, header a {
     color: #dd6a88;
     text-decoration: none;
     font-size: 120%;
-    text-align: center;
+    text-align: right;
     font-weight: lighter;
     width: 100%;
 }
 header li {
     display: inline;
-    padding: 15px;
+    padding-left: 30px;
 }
 .header_bold {
     font-weight: bold;
@@ -53,12 +53,14 @@ footer {
 /*About Me*/
 
 /*Home*/
-body{
-    background-image: url(img/background_home.jpg);
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    
+.boxHOME {
+    padding-top: 100px;
+    text-align: center;
+}
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffa3bc;
 }
 /*Home*/
 
@@ -67,6 +69,22 @@ body{
     padding-top: 100px;
     text-align: center;
     /*{text-shadow: 2px 1px 1px #7d7d7d;*/
+}
+#container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxMUSIC_img {
+    margin: 20px;
+    background-color: #ffa3bc;
+    flex: 1;
+}
+
+@media (max-width: 800px) {
+    .boxMUSIC_img {
+        display: flex;
+    }
 }
 /*Music*/
 
